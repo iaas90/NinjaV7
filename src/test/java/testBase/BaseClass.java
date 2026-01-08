@@ -71,8 +71,8 @@ public class BaseClass {
 					return;
 				}
 
-				String gridURL = "http://192.168.50.10:4444/wd/hub"; // Update if needed
-				//String gridURL = "http://192.168.86.78:4444/wd/hub"; // this will also work
+				//String gridURL = "http://172.21.67.28:4444/wd/hub"; // Update if needed
+				String gridURL = "http://localhost:4444"; // this will also work
 				
 
 				switch (br.toLowerCase()) {
